@@ -1,0 +1,44 @@
+{
+  "name": "passport-annict",
+  "description": "Passport strategy for authenticating with Annict using the OAuth 2.0 API.",
+  "license": "MIT",
+  "author": "3846masa <3846masahiro+git@gmail.com>",
+  "homepage": "https://github.com/3846masa/passport-annict#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/3846masa/passport-annict.git"
+  },
+  "bugs": {
+    "url": "https://github.com/3846masa/passport-annict/issues"
+  },
+  "version": "0.0.0",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "prebuild": "npm run clean",
+    "build": "tsc",
+    "clean": "rimraf lib"
+  },
+  "dependencies": {
+    "@types/passport-oauth2": "^1.4.8",
+    "passport-oauth2": "^1.5.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.16.1",
+    "@types/express-session": "^1.15.12",
+    "@types/node": "^12.0.2",
+    "@types/passport": "^0.4.7",
+    "@types/rimraf": "^2.0.2",
+    "express": "^4.16.4",
+    "express-session": "^1.16.1",
+    "passport": "^0.4.0",
+    "rimraf": "^2.6.3",
+    "typescript": "^3.4.5"
+  },
+  "keywords": [
+    "annict",
+    "passport"
+  ]
+}
